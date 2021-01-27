@@ -1,0 +1,137 @@
+[gd_resource type="Animation" format=2]
+
+[resource]
+resource_name = "idle_pose"
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Torso:transform")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.5, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Torso/Head:transform")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Torso/Head/Ponytail:transform")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.96046e-08, -1.19209e-07, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Torso/ArmUpperR:transform")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Transform( 1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, -0.5, 0.5, 2 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Torso/ArmUpperR/ArmLowerR:transform")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Torso/ArmUpperL:transform")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Transform( 1, 0, 0, 0, 0.866025, -0.5, 0, 0.5, 0.866025, -0.5, 0.5, -2 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Torso/ArmUpperL/ArmLowerL:transform")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.19209e-07, -2, 0 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Torso/LegUpperR:transform")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Transform( 1, -2.98023e-08, 0, 2.98023e-08, 1, 0, 0, 0, 1, -0.5, -4, 1 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Torso/LegUpperR/LegLowerR:transform")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.5, 0 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Torso/LegUpperL:transform")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Transform( 1, -2.98023e-08, 0, 2.98023e-08, 1, 0, 0, 0, 1, -0.5, -4, -1 ) ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Torso/LegUpperL/LegLowerL:translation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, -2.5, 0 ) ]
+}
