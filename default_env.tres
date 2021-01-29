@@ -13,9 +13,10 @@ sun_curve = 0.627684
 sun_energy = 0.67
 
 [resource]
-background_mode = 2
+background_mode = 3
 background_sky = SubResource( 1 )
+background_color = Color( 0.858824, 0.984314, 1, 1 )
 background_energy = 2.0
-ambient_light_color = Color( 1, 0.996078, 0.992157, 1 )
+ambient_light_color = Color( 1, 1, 1, 1 )
 ambient_light_energy = 2.0
 ambient_light_sky_contribution = 0.85

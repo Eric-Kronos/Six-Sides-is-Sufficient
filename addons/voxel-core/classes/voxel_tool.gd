@@ -122,6 +122,7 @@ func add_face(
 		
 		if surface.material is SpatialMaterial:
 			surface.material.vertex_color_use_as_albedo = true
+			surface.material.vertex_color_is_srgb = true
 			if uv_surface:
 				surface.material.albedo_texture = _voxel_set.tiles
 		

@@ -66,6 +66,10 @@ config/name="Six Sides is Sufficient"
 run/main_scene="res://examples/ProceduralWorld/ProceduralWorld.tscn"
 config/icon="res://icon.png"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "voxel-core" )
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
