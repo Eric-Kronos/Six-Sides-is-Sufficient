@@ -1,0 +1,38 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://addons/voxel-core/classes/voxel_set.gd" type="Script" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+
+[resource]
+script = ExtResource( 1 )
+tile_size = Vector2( 32, 32 )
+materials = [ SubResource( 1 ) ]
+VOXELS = [ {
+"color": Color( 0, 0, 0, 1 )
+}, {
+"color": Color( 1, 1, 1, 1 )
+}, {
+"color": Color( 1, 0.901961, 0.854902, 1 ),
+"material": 0
+}, {
+"color": Color( 0.741176, 0.352941, 0.827451, 1 ),
+"energy": 1.0,
+"energy_color": Color( 0.321569, 0, 0.368627, 1 )
+}, {
+"color": Color( 0.960784, 0.8, 1, 1 ),
+"energy": 1.0,
+"energy_color": Color( 0.137255, 0, 0.235294, 1 )
+}, {
+"color": Color( 0.984314, 0.780392, 0.643137, 1 )
+}, {
+"color": Color( 0.968627, 0.713726, 0.552941, 1 )
+}, {
+"color": Color( 1, 0.866667, 0.509804, 1 )
+}, {
+"color": Color( 1, 0.8, 0.290196, 1 )
+}, {
+"color": Color( 0.203922, 0.694118, 0.890196, 1 )
+}, {
+"color": Color( 0.141176, 0.482353, 0.627451, 1 )
+} ]
